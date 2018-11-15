@@ -67,9 +67,11 @@
 }
 
 .btn_down_arrow {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  background: url(../images/ico-scroll-down.svg);
-  background-size: contain;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
@@ -78,9 +80,11 @@
 }
 
 .btn_up_arrow {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  background: url(../images/ico-arrow.svg);
-  background-size: contain;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
@@ -88,4 +92,5 @@
   outline-color: $color-buttons;
   position: relative;
   transform: translateY(50%);
+  margin: 0 auto; 
 }
