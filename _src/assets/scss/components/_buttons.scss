@@ -1,13 +1,3 @@
-.a_go{
-    text-decoration: none;
-    color: $color-buttons;
-}
-
-.a_more_reasons{
-    text-decoration: none;
-    color: white;
-}
-
 .btn_hamburger {
   position: fixed;
   width: 44px;
@@ -37,6 +27,7 @@
   **/
 
 .btn_go {
+  cursor: pointer;
   border: 2px solid $color-buttons;
   border-radius: 22.5px;
   color: $color-buttons;
@@ -45,9 +36,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all ease 1s;
+  &:hover { /** este hover no funciona!  **/
+    background-color: $color-buttons;
+    border: 0px;
+  }
+  &:hover .a_go {
+    color: white;
+  }
 }
 
 .btn_more-reasons {
+  cursor: pointer;
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
@@ -56,6 +56,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all ease 1s;
+  &:hover {
+    background-color: white;
+    border: 2px solid $color-buttons;
+  }
+  &:hover .a_more_reasons {
+    color: $color-buttons;
+  }
 }
 
 .btn_down_arrow {
