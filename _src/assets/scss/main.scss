@@ -1,6 +1,21 @@
-@import 'core/settings';
+@import "core/settings";
 
 body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	height: 100vh;
+
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+.section_1 {
+  background-color: #eff9ff;
+}
+
+.section_2 {
+  background-color: #eff9ff;
+}
+
+.footer {
+  background-color: dark-grey-blue;
 }
