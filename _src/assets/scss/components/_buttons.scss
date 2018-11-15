@@ -1,3 +1,13 @@
+.a_go{
+    text-decoration: none;
+    color: $color-buttons;
+}
+
+.a_more_reasons{
+    text-decoration: none;
+    color: white;
+}
+
 .btn_hamburger {
   position: fixed;
   width: 44px;
@@ -27,14 +37,17 @@
   **/
 
 .btn_go {
-  text-decoration: none;
   border: 2px solid $color-buttons;
   border-radius: 22.5px;
   color: $color-buttons;
+  width: 76px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn_more-reasons {
-  text-decoration: none;
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
