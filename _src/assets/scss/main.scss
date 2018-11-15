@@ -146,7 +146,10 @@ https://www.w3schools.com/howto/howto_css_menu_icon.asp
   height: 45px;
   border-radius: 22.5px;
   background-color: #f26002;
-  color: white;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .btn_down_arrow {
@@ -168,5 +171,7 @@ https://www.w3schools.com/howto/howto_css_menu_icon.asp
   height: 45px;
   border-radius: 22.5px;
   z-index: 1;
-  outline-color: #f26002;
+	outline-color: #f26002;
+	position: relative;
+	transform: translateY(50%);
 }
