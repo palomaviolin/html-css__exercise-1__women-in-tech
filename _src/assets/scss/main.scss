@@ -1,156 +1,172 @@
 @import "core/variables";
 
-body{
-	margin: 0;
-	padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.header{
-	background: url(../images/cover.jpg);
-	background-size: cover;
-	height: 100vh;
-	width: 100%;
-	position: relative;
+.header {
+  background: url(../images/cover.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
 
-.hero{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: absolute;
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
 }
 
-.main_titles_box{
-	margin-top: 70%;
+.main_titles_box {
+  margin-top: 70%;
 }
 
 .website_title {
-	text-transform: uppercase;
-	color: white;
-	font-size: 42px;
-	line-height: 55px;
-	font-family: 'Roboto', sans-serif;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 42px;
+  line-height: 55px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.website_subtitle{
-	color: white;
-	font-size: 16px;
-	line-height: 30px;
-	font-family: 'Roboto', sans-serif;
+.website_subtitle {
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
 }
 
-.tips_title{
-	color: #8ccbea;
-	font-size: 14 px;
-	font-family: 'Roboto', sans-serif;
+.tips_title {
+  color: #8ccbea;
+  font-size: 14 px;
+  font-family: "Roboto", sans-serif;
 }
 
-.h4_titles{
-	color: black;
-	font-size: 24px;
-	line-height: 30px;
-	font-family: 'Roboto', sans-serif;
+.h4_titles {
+  color: black;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
 }
 
 .section_1 {
-	background-color: white;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .section_2 {
-	background-color: #eff9ff;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 30px;
-	padding-bottom: 0px;
+  background-color: #eff9ff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
-.ul_purchase{
-	margin:0;
-	padding:0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+.ul_purchase {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.li_purchase{
-	list-style-type: none;
-	line-height: 0;
-	text-align: center;
+.li_purchase {
+  list-style-type: none;
+  line-height: 0;
+  text-align: center;
 }
 
 .footer_principal_container {
-	background-color: #304268;
-	color: white;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	display: flex;
-	flex-direction: column-reverse;
-	height: 128px;
+  background-color: #304268;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 128px;
 }
 
-.footer{
-	margin-bottom: 30px;
+.footer {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+/**  BUTTONS: **/
+
+.btn_hamburger {
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  z-index: 2;
+	transform: translate(-248%);
 	display: flex;
 	flex-direction: column;
-	justify-items: center;
 	align-items: center;
+	justify-content: center;
 }
 
-/**  buttons: **/
-
-.btn_hamburger{
-	position: fixed;
-	width: 44px;
-  height: 44px;
-	background-color: #0271bc;
-	z-index: 2;
-	transform: translate(-248%);
+.hamburger_line_icon_1, .hamburger_line_icon_2, .hamburger_line_icon_3 {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+	margin: 2px;
+	line-height: 0;
 }
 
-.btn_go{
-	text-decoration: none;
-	border: 2px solid #f26002;
-	border-radius: 22.5px;
-	color: #f26002;
+/**
+I have found the way to make the hamburger icon here:
+https://www.w3schools.com/howto/howto_css_menu_icon.asp
+**/
+
+.btn_go {
+  text-decoration: none;
+  border: 2px solid #f26002;
+  border-radius: 22.5px;
+  color: #f26002;
 }
 
-.btn_more-reasons{
-	text-decoration: none;
-	width: 184px;
-	height: 45px;
-	border-radius: 22.5px;
-	background-color: #f26002;
-	color: white;
+.btn_more-reasons {
+  text-decoration: none;
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: #f26002;
+  color: white;
 }
 
-.btn_down_arrow{
-	background-color:white;
-	background: url(../images/ico-scroll-down.svg);
-	background-size: contain;
-	width: 45px;
-	height: 45px;
-	border-radius: 22.5px;
-	z-index: 1;
-	outline-color: #f26002;
+.btn_down_arrow {
+  background-color: white;
+  background: url(../images/ico-scroll-down.svg);
+  background-size: contain;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  z-index: 1;
+  outline-color: #f26002;
 }
 
-.btn_up_arrow{
-	background-color:white;
-	background: url(../images/ico-arrow.svg);
-	background-size: contain;
-	width: 45px;
-	height: 45px;
-	border-radius: 22.5px;
-	z-index: 1;
-	outline-color: #f26002;
+.btn_up_arrow {
+  background-color: white;
+  background: url(../images/ico-arrow.svg);
+  background-size: contain;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  z-index: 1;
+  outline-color: #f26002;
 }
