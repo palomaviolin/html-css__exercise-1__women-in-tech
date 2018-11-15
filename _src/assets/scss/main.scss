@@ -110,12 +110,11 @@ body{
 
 .btn_hamburger{
 	position: fixed;
-	transform: translate(-358%); /** esto tengo que arreglarlo**/
 	width: 44px;
   height: 44px;
 	background-color: #0271bc;
-	margin-left: 0 auto;
-	padding-left: 0 auto;
+	z-index: 2;
+	transform: translate(-248%);
 }
 
 .btn_go{
