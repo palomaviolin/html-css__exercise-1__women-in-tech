@@ -18,15 +18,6 @@ body{
 	align-items: center;
 }
 
-.btn_hamburger{
-	position: fixed;
-	width: 44px;
-  height: 44px;
-	background-color: #0271bc;
-	margin-left: 0;
-	padding-left: 0;
-}
-
 .main_titles_box{
 	margin-top: 70%;
 }
@@ -97,4 +88,31 @@ body{
 	padding-right: 15px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+}
+
+/**  buttons: **/
+
+.btn_hamburger{
+	position: fixed;
+	width: 44px;
+  height: 44px;
+	background-color: #0271bc;
+	margin-left: 0 auto;
+	padding-left: 0 auto;
+}
+
+.btn_go{
+	text-decoration: none;
+	border: 2px solid #f26002;
+	border-radius: 22.5px;
+	color: #f26002;
+}
+
+.btn_more-reasons{
+	text-decoration: none;
+	width: 184px;
+	height: 45px;
+	border-radius: 22.5px;
+	background-color: #f26002;
+	color: white;
 }
