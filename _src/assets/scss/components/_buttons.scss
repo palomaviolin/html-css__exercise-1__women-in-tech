@@ -1,0 +1,70 @@
+.btn_hamburger {
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  background-color: $color-button_hamburger;
+  z-index: 2;
+  transform: translate(-248%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger_line_icon_1,
+.hamburger_line_icon_2,
+.hamburger_line_icon_3 {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 2px;
+  line-height: 0;
+}
+
+/**
+  I have found the way to make the hamburger icon here:
+  https://www.w3schools.com/howto/howto_css_menu_icon.asp
+  **/
+
+.btn_go {
+  text-decoration: none;
+  border: 2px solid $color-buttons;
+  border-radius: 22.5px;
+  color: $color-buttons;
+}
+
+.btn_more-reasons {
+  text-decoration: none;
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $color-buttons;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_down_arrow {
+  background-color: white;
+  background: url(../images/ico-scroll-down.svg);
+  background-size: contain;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  z-index: 1;
+  outline-color: $color-buttons;
+}
+
+.btn_up_arrow {
+  background-color: white;
+  background: url(../images/ico-arrow.svg);
+  background-size: contain;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  z-index: 1;
+  outline-color: $color-buttons;
+  position: relative;
+  transform: translateY(50%);
+}
