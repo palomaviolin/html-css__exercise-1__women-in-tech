@@ -2,91 +2,24 @@
 @import "components/buttons";
 @import "components/typography";
 
+/** ---------------------------- **/
+
 body {
   margin: 0;
   padding: 0;
 }
 
-.header {
-  background: url(../images/cover.jpg);
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  position: relative;
-}
+/** ---------------------------- **/
 
-.hero {
-  text-align: center;
-} 
+@import "layout/header";
 
-.main_titles_box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 284px;
-}
+/** ---------------------------- **/
 
-.section_1 {
-  background-color: $color-section1;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
+@import "layout/main";
 
-.section_2 {
-  background-color: $color-section2;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 30px;
-  padding-bottom: 0px;
-}
+/** ---------------------------- **/
 
-.ul_purchase {
-  margin: 0;
-  padding: 0;
-  /** display: flex;
-  flex-direction: column;
-  justify-content: center; **/
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  justify-items: center;
-}
-
-.li_purchase{
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-
-.li_purchase_1, .li_purchase_2, .li_purchase_3, .li_purchase_4 {
-  list-style-type: none;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  max-width: 184px;
-}
-
-.footer_principal_container {
-  background-color: $color-footer;
-  color: $color-primary;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  display: flex;
-  flex-direction: column-reverse;
-  height: 128px;
-}
-
-.footer {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
+@import "layout/footer";
 
 /** ---------------------------- **/
 

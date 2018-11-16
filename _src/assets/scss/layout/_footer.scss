@@ -1,0 +1,19 @@
+.footer_principal_container {
+    background-color: $color-footer;
+    color: $color-primary;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 128px;
+  }
+  
+  .footer {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
