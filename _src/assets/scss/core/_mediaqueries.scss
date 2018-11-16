@@ -1,11 +1,21 @@
 /** Styles for tablet **/
 @media all and (min-width: 768px) {
-  .header,
-  .footer,
-  .section_1,
-  .section_2 {
-    padding-left: 39px;
-    padding-right: 39px;
+  
+  .ul_purchase, .desktop_box_width-730px {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .li_purchase_1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .li_purchase_2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .li_purchase_3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
   }
 }
 
@@ -19,6 +29,11 @@
   .desktop_box_width-730px {
     width: 730px;
     margin: 0 auto;
+  }
+
+  .ul_purchase {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
   .footer {

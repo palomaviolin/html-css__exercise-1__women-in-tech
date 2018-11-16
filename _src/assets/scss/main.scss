@@ -45,12 +45,21 @@ body {
 .ul_purchase {
   margin: 0;
   padding: 0;
-  display: flex;
+  /** display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; **/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
 }
 
-.li_purchase {
+.li_purchase{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.li_purchase_1, .li_purchase_2, .li_purchase_3, .li_purchase_4 {
   list-style-type: none;
   text-align: center;
   margin: 0 auto;
