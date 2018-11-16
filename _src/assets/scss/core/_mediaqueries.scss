@@ -1,5 +1,34 @@
 /** Styles for tablet **/
 @media all and (min-width: 768px) {
+  .website_title {
+    font-size: 80px;
+    line-height: 110px;
+  }
+
+  .website_subtitle {
+    font-size: 24px;
+  }
+
+  .h4_titles {
+    font-size: 26px;
+  }
+
+  .p_section_1 {
+    font-size: 20px;
+  }
+
+  .box_title {
+    font-size: 24px;
+  }
+
+  .box_little_text {
+    font-size: 20px;
+  }
+
+  .3-reasons{
+    font-size: 26px;
+  }
+
   .ul_purchase,
   .desktop_box_width-730px {
     padding-left: 40px;
@@ -39,9 +68,37 @@
     padding: 0;
   }
 
+  .website_title {
+    font-size: 100px;
+  }
+
+  .website_subtitle {
+    font-size: 24px;
+  }
+
+  .h4_titles {
+    font-size: 32px;
+  }
+
+  .p_section_1 {
+    font-size: 20px;
+  }
+
+  .box_title {
+    font-size: 24px;
+  }
+
+  .box_little_text {
+    font-size: 20px;
+  }
+
   .desktop_box_width-730px {
     width: 730px;
     margin: 0 auto;
+  }
+
+  .3-reasons{
+    font-size: 32px;
   }
 
   .ul_purchase {
