@@ -1,10 +1,11 @@
 .btn_hamburger {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 44px;
   height: 44px;
   background-color: $color-button_hamburger;
   z-index: 2;
-  /** transform: translate(-360%); **/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +29,7 @@
 
 .btn_go {
   cursor: pointer;
+  margin-bottom: 45px;
   border: 2px solid $color-buttons;
   border-radius: 22.5px;
   color: $color-buttons;
@@ -37,17 +39,21 @@
   justify-content: center;
   align-items: center;
   transition: all ease 1s;
-  &:hover { /** este hover no funciona!  **/
-    background-color: $color-buttons;
-    border: 0px;
+  &:hover {
+    background-color: $color-button_hamburger;
+    border: 3px solid white;
   }
   &:hover .a_go {
     color: white;
+    font-weight: bold;
+    font-style: italic;
   }
 }
 
 .btn_more-reasons {
   cursor: pointer;
+  margin: 0 auto;
+  margin-top: 25px;
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
@@ -58,11 +64,13 @@
   justify-content: center;
   transition: all ease 1s;
   &:hover {
-    background-color: white;
-    border: 2px solid $color-buttons;
+    background-color: $color-button_hamburger;
+    border: 3px solid white;
   }
   &:hover .a_more_reasons {
-    color: $color-buttons;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
   }
 }
 

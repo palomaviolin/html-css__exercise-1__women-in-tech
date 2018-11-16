@@ -20,6 +20,13 @@
   color: #8ccbea;
   font-family: "Roboto", sans-serif;
   font-size: 14 px;
+  padding-top: 30px;
+}
+
+.p_section_1{
+  color: #4a4a4a;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
 .h4_titles {
@@ -32,10 +39,25 @@
 .a_go{
   text-decoration: none;
   color: $color-buttons;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 .a_more_reasons{
   text-decoration: none;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
+.box_little_text, .box_title{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.copyright_text{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+}
