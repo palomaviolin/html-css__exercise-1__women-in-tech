@@ -4,7 +4,7 @@
 
 
 >### ENTER THE WEBSITE: http://beta.adalab.es/e-s1-evaluacion-final-palomaviolin/
->### Project's url in Zeplin: https://zpl.io/VYBYXZw
+>### SEE THE INSTRUCTIONS TO DEVELOP THE PROJECT: [Project's url in Zeplin.](https://zpl.io/VYBYXZw)
 
 # Quick start guide to use this repository in your computer:
 
