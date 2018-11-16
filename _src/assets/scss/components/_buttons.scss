@@ -128,27 +128,3 @@
     border: 3px solid $color-buttons;
   }
 }
-
-.btn_annie-easly {
-  left: 50%;
-  cursor: pointer;
-  margin: 0 auto;
-  margin-top: 16px;
-  width: 130px;
-  height: 45px;
-  border-radius: 25px;
-  background-color: $color-buttons;
-  color: $color-primary;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all ease 0.5s;
-  &:hover {
-    background-color: $color-button_hamburger;
-  }
-  &:hover .a_purchase-easly {
-    color: $color-primary;
-    font-weight: bold;
-    font-style: italic;
-  }
-}
