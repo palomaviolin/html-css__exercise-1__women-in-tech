@@ -1,3 +1,5 @@
+/** index.html typography **/
+
 .website_title {
   text-transform: uppercase;
   color: $color-primary;
@@ -59,12 +61,16 @@
   font-size: 20px;
 }
 
-.a_more_reasons {
+.a_more_reasons, .a_purchase-easly {
   text-decoration: none;
   color: $color-primary;
   font-family: $font-family_primary;
   font-weight: $font-weight_medium500;
   font-size: 20px;
+}
+
+.a_purchase-easly {
+  font-size: 18px;
 }
 
 .box_title {
@@ -89,4 +95,17 @@
   font-weight: $font-weight_regular400;
   font-size: 14px;
   color: $color-primary;
+}
+
+/** more-reasons.html typography **/
+.text_easly_purchase{
+  font-family: $font-family_primary;
+  font-weight: $font-weight_regular400;
+  font-size: 18px;
+  color: $color-secondary;
+}
+
+.title_header-2{
+  font-size: 14px;
+  padding-right: 20px;
 }

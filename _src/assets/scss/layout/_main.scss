@@ -19,7 +19,7 @@
   padding: 0;
   /** display: flex;
     flex-direction: column;
-    justify-content: center; **/
+    justify-content: center; Para hacerlo en móvil con flex **/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
