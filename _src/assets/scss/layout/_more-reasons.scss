@@ -39,9 +39,11 @@
 .photo-and-purchase_item1 {
   grid-column-start: 1;
   grid-column-end: 2;
-  background-color: $color-tertiary_section1-title;
+  background-color: $color-section2;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  border: 2px solid $color-footer;
+  border-right: none;
 }
 
 .photo-and-purchase_item2 {
@@ -51,11 +53,13 @@
   text-align: center;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  border: 2px solid $color-footer;
+  border-left: none;
 }
 
 .box_annie-easly {
   margin: 0;
-  background-color: $color-tertiary_section1-title;
+  background-color: $color-section2;
 }
 
 .photo_annie-easly {
