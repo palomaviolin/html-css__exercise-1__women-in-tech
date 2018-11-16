@@ -10,6 +10,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: all ease 0.5s;
+  &:hover {
+    background-color: palegreen;
+    border: 3px solid darkcyan;
+    border-radius: 5px 20px;
+    margin: 7px;
+  }
+  &:hover .a_go {
+    color: orange;
+    font-weight: bold;
+  }
 }
 
 .hamburger_line_icon_1,
@@ -38,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all ease 1s;
+  transition: all ease 0.5s;
   &:hover {
     background-color: $color-button_hamburger;
     border: 3px solid white;
@@ -62,7 +73,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all ease 1s;
+  transition: all ease 0.5s;
   &:hover {
     background-color: $color-button_hamburger;
     border: 3px solid white;
@@ -85,7 +96,7 @@
   border-radius: 22.5px;
   z-index: 1;
   outline-color: $color-buttons;
-  transition: all ease 1s;
+  transition: all ease 0.65s;
   &:hover {
     background-color: white;
     border: 3px solid $color-buttons;
@@ -106,7 +117,7 @@
   position: relative;
   transform: translateY(50%);
   margin: 0 auto;
-  transition: all ease 1s;
+  transition: all ease 0.65s;
   &:hover {
     background-color: white;
     border: 3px solid $color-buttons;
