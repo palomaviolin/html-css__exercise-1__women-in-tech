@@ -28,7 +28,7 @@
 .hamburger_line_icon_3 {
   width: 20px;
   height: 2px;
-  background-color: white;
+  background-color: $color-primary;
   margin: 2px;
   line-height: 0;
 }
@@ -55,7 +55,7 @@
     border: 2px solid $color-button_hamburger;
   }
   &:hover .a_go {
-    color: white;
+    color: $color-primary;
     font-weight: bold;
     font-style: italic;
   }
@@ -69,7 +69,7 @@
   height: 45px;
   border-radius: 22.5px;
   background-color: $color-buttons;
-  color: white;
+  color: $color-primary;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,7 @@
     background-color: $color-button_hamburger;
   }
   &:hover .a_more_reasons {
-    color: white;
+    color: $color-primary;
     font-weight: bold;
     font-style: italic;
   }
@@ -93,7 +93,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: $color-primary;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
@@ -102,7 +102,7 @@
   border: 3px solid transparent;
   transition: all ease 0.65s;
   &:hover {
-    background-color: white;
+    background-color: $color-primary;
     border: 3px solid $color-buttons;
   }
 }
@@ -112,7 +112,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: $color-primary;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;
@@ -124,7 +124,7 @@
   border: 3px solid transparent;
   transition: all ease 0.65s;
   &:hover {
-    background-color: white;
+    background-color: $color-primary;
     border: 3px solid $color-buttons;
   }
 }
