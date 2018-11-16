@@ -1,0 +1,28 @@
+/** Styles for tablet **/
+@media all and (min-width: 768px) {
+  .header,
+  .footer,
+  .section_1,
+  .section_2 {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+/** Styles for desktop **/
+@media all and (min-width: 1200px) {
+  .header,
+  .section_1 {
+    padding: 0;
+  }
+
+  .desktop_box_width-730px {
+    width: 730px;
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding-left: 275px;
+    padding-right: 275px;
+  }
+}
