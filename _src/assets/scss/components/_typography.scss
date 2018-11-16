@@ -50,10 +50,19 @@
   font-size: 20px;
 }
 
-.box_little_text, .box_title{
+.box_title{
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: black;
+  margin: 0;
+}
+
+.box_little_text{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .copyright_text{

@@ -51,9 +51,10 @@ body {
 
 .li_purchase {
   list-style-type: none;
-  line-height: 0;
   text-align: center;
+  margin: 0 auto;
   margin-bottom: 30px;
+  max-width: 184px;
 }
 
 .footer_principal_container {
