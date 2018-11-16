@@ -23,7 +23,11 @@ body {
 }
 
 .main_titles_box {
-  margin-top: 284px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 284px;
 }
 
 .section_1 {
