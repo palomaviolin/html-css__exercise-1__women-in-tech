@@ -128,4 +128,19 @@
     background-color: $color-primary;
     border: 3px solid $color-buttons;
   }
+  position: relative;
+  -webkit-animation: mymove 5s infinite;
+  animation: mymove 5s infinite;
+  @keyframes mymove {
+    from {
+      left: 400px;
+      background-color: $color-buttons;
+      transform: rotate(180deg);
+    }
+    to {
+      left: 0px;
+    }
+  }
 }
+
+/** I've searched here for inspiration to do the animation: https://www.w3schools.com/cssref/css3_pr_transform.asp **/
