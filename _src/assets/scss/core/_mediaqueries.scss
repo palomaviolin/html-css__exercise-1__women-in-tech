@@ -17,6 +17,11 @@
     grid-column-start: 3;
     grid-column-end: 4;
   }
+
+  .title_header-2 {
+    font-size: 2.5vh;
+    padding-right: 85px;
+  }
 }
 
 /** Styles for desktop **/
@@ -39,5 +44,10 @@
   .footer {
     padding-left: 275px;
     padding-right: 275px;
+  }
+
+  .title_header-2 {
+    font-size: 3vh;
+    padding-right: 85px;
   }
 }
