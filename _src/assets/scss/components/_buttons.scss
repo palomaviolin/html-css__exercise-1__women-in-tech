@@ -1,4 +1,5 @@
 .btn_hamburger {
+  background-image: url(../../../../public/assets/images/ico-ico.png);
   position: fixed;
   top: 0;
   left: 0;
@@ -23,6 +24,7 @@
   }
 }
 
+
 .hamburger_line_icon_1,
 .hamburger_line_icon_2,
 .hamburger_line_icon_3 {
@@ -31,7 +33,7 @@
   background-color: $color-primary;
   margin: 2px;
   line-height: 0;
-}
+} 
 
 /**
   I have found the way to make the hamburger icon here:
