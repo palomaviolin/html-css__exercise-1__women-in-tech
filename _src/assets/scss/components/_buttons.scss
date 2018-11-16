@@ -133,7 +133,7 @@
   animation: mymove 5s infinite;
   @keyframes mymove {
     from {
-      left: 400px;
+      left: 20px;
       background-color: $color-buttons;
       transform: rotate(180deg);
     }
