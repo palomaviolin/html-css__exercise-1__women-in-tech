@@ -59,7 +59,17 @@
   .more-reasons_paragraph-seats {
     margin-bottom: 30px;
   }
+
+
+.section_exam{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-button_hamburger;
 }
+}
+
 
 /** Styles for desktop **/
 @media all and (min-width: 1200px) {
@@ -116,3 +126,4 @@
     padding-right: 85px;
   }
 }
+
