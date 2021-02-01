@@ -3,7 +3,7 @@
 ![](images/coollogo.png)
 
 
-<!-- >### ENTER THE WEBSITE:  -->
+>### Enter the website [HERE](https://palomaviolin.github.io/html-css__exercise-1__women-in-tech/).
 
 # Quick start guide to use this repository in your computer:
 
