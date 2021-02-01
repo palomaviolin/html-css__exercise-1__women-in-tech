@@ -1,4 +1,4 @@
-# html+css+sass - Ejercicio 1
+# html+css+sass - Exercise 1
 
 ![](images/coollogo.png)
 
