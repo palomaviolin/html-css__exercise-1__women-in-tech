@@ -1,10 +1,9 @@
-# e-s1-evaluacion-final-palomaviolin
+# html+css+sass - Ejercicio 1
 
 ![](images/coollogo.png)
 
 
->### ENTER THE WEBSITE: http://beta.adalab.es/e-s1-evaluacion-final-palomaviolin/
->### SEE THE INSTRUCTIONS TO DEVELOP THE PROJECT: [Project's url in Zeplin](https://zpl.io/VYBYXZw) *¡Al turrón!* 😎 ✌️
+<!-- >### ENTER THE WEBSITE:  -->
 
 # Quick start guide to use this repository in your computer:
 
@@ -17,7 +16,7 @@ This project contains a node/gulp package with SCSS, a system of HTML templates 
 ![](images/url_clone.png)
 ![](images/git_clone.png)
 
-2. Write `$ npm install` and press enter, in order to activate the **Gulp tasks** that are included in the project. (**npm install** to install the necessary packages to convert SASS to CSS, minify, etc). Also you start the repo with `$ gulp` 
+2. Write `$ npm install` and press enter, in order to activate the **Gulp tasks** that are included in the project. (**npm install** to install the necessary packages to convert SASS to CSS, minify, etc). Also you start the repo with `$ gulp`
 Note: We have incorporated the gulp package from Adalab: [Adalab web starter kit](https://github.com/Adalab/Adalab-web-starter-kit).
 
 ![](images/npm_install.png)
